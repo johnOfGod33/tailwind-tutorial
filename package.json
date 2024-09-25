@@ -4,7 +4,7 @@
   "description": "All the course files for the Tailwind CSS tutorial on the Net Ninja YouTube channel.",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+    "watch-css": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
     "url": "https://github.com/iamshaunjp/tailwind-tutorial/issues"
   },
   "homepage": "https://github.com/iamshaunjp/tailwind-tutorial#readme",
-  "dependencies": {
-    "tailwindcss": "^1.4.6"
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
   }
 }
