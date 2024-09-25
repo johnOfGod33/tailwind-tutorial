@@ -3,6 +3,9 @@ module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
     extend: {
+      fontFamily: {
+        body: ["Ubuntu"],
+      },
       colors: {
         primary: "#FF6363",
         secondary: {
