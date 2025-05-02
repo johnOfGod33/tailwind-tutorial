@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SESSOU Jean de Dieu - CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @media print {
+        body {
+          width: 210mm;
+          height: 297mm;
+          margin: 0;
+          font-size: 14px; /* Taille de police augmentée pour l'impression */
+        }
+
+        h1 {
+          font-size: 24px;
+        }
+
+        h2 {
+          font-size: 20px;
+        }
+
+        h3 {
+          font-size: 18px;
+        }
+
+        p,
+        li {
+          font-size: 14px;
+        }
+
+        .text-right {
+          text-align: left;
+        }
+
+        .text-center {
+          text-align: left;
+        }
+
+        .font-semibold {
+          font-weight: 600;
+        }
+      }
+
+      /* Taille de police générale plus grande pour la version en ligne */
+      body {
+        font-size: 16px; /* Taille de police augmentée */
+      }
+
+      /* Flexbox adjustment for width */
+      .content {
+        display: flex;
+        gap: 20px;
+      }
+
+      .bloc1 {
+        width: 70%;
+      }
+
+      .bloc2 {
+        width: 30%;
+      }
+    </style>
+  </head>
+  <body class="bg-white text-gray-800 font-sans p-2 max-w-4xl mx-auto">
+    <!-- Header -->
+    <header class="flex justify-between items-start mb-8">
+      <div>
+        <h1 class="text-4xl font-bold text-blue-600">SESSOU Jean de Dieu</h1>
+        <p class="text-base">Développeur Web Fullstack</p>
+      </div>
+      <div class="text-left">
+        <li class="list-none">
+          <a href="mailto:sessoujeandedieu@gmail.com" class="text-blue-500"
+            >sessoujeandedieu@gmail.com</a
+          >
+        </li>
+        <li class="list-none">
+          <a href="tel:+22870486833" class="text-blue-500">+228 70486833</a>
+        </li>
+        <li class="list-none">
+          <a
+            href="https://linkedin.com/in/jean-de-dieu-sessou-260897292"
+            class="text-blue-500"
+            >linkedin.com/in/jean-de-dieu-sessou</a
+          >
+        </li>
+        <li class="list-none">
+          <a href="https://jeandedieu.dev" class="text-blue-500"
+            >jeandedieu.dev</a
+          >
+        </li>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="content">
+      <!-- Bloc 1 (Expérience et Éducation) -->
+      <section class="bloc1">
+        <!-- Expériences -->
+        <div class="mb-8">
+          <h2
+            class="text-xl font-bold text-blue-600 border-b-2 border-gray-200 pb-2 mb-4"
+          >
+            Expériences Professionnelles
+          </h2>
+          <div class="space-y-6 mb-4">
+            <div>
+              <h3 class="font-semibold text-lg">
+                Stagiaire développeur backend,
+                <a href="https://edomatch.com" class="text-blue-600"
+                  >Edomatch</a
+                >
+              </h3>
+              <p class="text-sm text-gray-500">Février 2025 — Présent</p>
+              <ul class="list-disc list-inside mt-2">
+                <li>
+                  Développement et maintenance d'API RESTful avec Python et
+                  FastAPI.
+                </li>
+                <li>
+                  Conception et gestion des bases de données SQL/NoSQL avec
+                  optimisation et sécurité.
+                </li>
+                <li>
+                  Implémentation des règles de sécurité (authentification,
+                  autorisation, gestion des tokens).
+                </li>
+                <li>
+                  Rédaction de tests unitaires et optimisation des performances
+                  des APIs.
+                </li>
+                <li>
+                  Contribution aux revues de code et amélioration des processus
+                  de développement.
+                </li>
+                <li>
+                  Veille technologique sur les nouvelles pratiques et outils
+                  backend.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="space-y-6 mb-4">
+            <div>
+              <h3 class="font-semibold text-lg">
+                Développeur Frontend, Projet Business Manager
+              </h3>
+              <p class="text-sm text-gray-500">Juillet 2024 — Septembre 2024</p>
+              <ul class="list-disc list-inside mt-2">
+                <li>
+                  Développement d'une application web axée sur la gestion de
+                  stock, permettant le suivi des produits et l'automatisation
+                  des commandes.
+                </li>
+                <li>
+                  Création d'interfaces utilisateur intuitives avec React pour
+                  une gestion efficace des stocks.
+                </li>
+                <li>
+                  Intégration avec des API pour suivre les mouvements de stock
+                  et afficher des rapports en temps réel.
+                </li>
+                <li>
+                  Collaboration avec le développeur backend et le chef de projet
+                  pour assurer la cohérence du projet.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Éducation -->
+        <div class="mb-8">
+          <h2
+            class="text-xl font-bold text-blue-600 border-b-2 border-gray-200 pb-2 mb-4"
+          >
+            Éducation
+          </h2>
+          <ul class="list-none space-y-4">
+            <li class="flex justify-between">
+              <div>
+                <span class="font-semibold"
+                  >Master en Intelligence Artificielle & Big Data</span
+                >
+                <p>Collège de Paris Togo, Lomé, Togo</p>
+              </div>
+              <span class="text-sm text-gray-500">(2024 – Présent)</span>
+            </li>
+            <li class="flex justify-between">
+              <div>
+                <span class="font-semibold"
+                  >Licence Professionnelle en Génie Mécanique</span
+                >
+                <p>École Polytechnique de Lomé (EPL), Lomé, Togo</p>
+              </div>
+              <span class="text-sm text-gray-500">(2020 – 2024)</span>
+            </li>
+            <li class="flex justify-between">
+              <div>
+                <span class="font-semibold">Formation Web MERN Stack</span>
+                <p>ESIG Global Success, Lomé, Togo</p>
+              </div>
+              <span class="text-sm text-gray-500"
+                >(août 2023 – septembre 2023)</span
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Langues -->
+        <div>
+          <h2
+            class="text-xl font-bold text-blue-600 border-b-2 border-gray-200 pb-2 mb-4"
+          >
+            Langues
+          </h2>
+          <ul class="list-none space-y-2">
+            <li><span class="font-semibold">Français :</span> Courant</li>
+            <li><span class="font-semibold">Anglais :</span> B1</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Bloc 2 (Compétences, Projets, Centres d’Intérêt) -->
+      <section class="bloc2">
+        <!-- Compétences -->
+        <div class="mb-8">
+          <h2
+            class="text-xl font-bold text-blue-600 border-b-2 border-gray-200 pb-2 mb-4"
+          >
+            Compétences
+          </h2>
+          <ul class="list-none space-y-2">
+            <li>
+              <span class="font-semibold">Developpement web :</span> HTML, CSS,
+              Node.js, React.js, Next.js, Tailwind CSS, Flask, FastAPI
+            </li>
+            <li>
+              <span class="font-semibold">Gestion de base de données :</span>
+              MySQL, MongoDB, Redis
+            </li>
+            <li>
+              <span class="font-semibold">Logiciels bureautique :</span>
+              Word, Excel, PowerPoint
+            </li>
+            <li>
+              <span class="font-semibold">Soft Skills :</span> Esprit d'équipe,
+              curiosité, resolution de problèmes
+            </li>
+          </ul>
+        </div>
+
+        <!-- Projets -->
+        <div class="mb-8">
+          <h2
+            class="text-xl font-bold text-blue-600 border-b-2 border-gray-200 pb-2 mb-4"
+          >
+            Projets
+          </h2>
+          <ul class="space-y-4">
+            <li>
+              <h3 class="font-semibold text-black">
+                <a
+                  href="https://johnofgod33.github.io/password-generator/"
+                  class="text-blue-500"
+                  >Password Generator</a
+                >
+              </h3>
+              <p class="text-sm text-gray-500">
+                Outil de génération de mots de passe sécurisé avec des options
+                personnalisables.
+              </p>
+            </li>
+            <li>
+              <h3 class="font-semibold text-black">
+                <a
+                  href="https://github.com/johnOfGod33/Caching-Proxy-CLI"
+                  class="text-blue-500"
+                  >Caching Proxy CLI</a
+                >
+              </h3>
+              <p class="text-sm text-gray-500">
+                CLI pour réduire la latence des API avec des mécanismes de
+                caching performants.
+              </p>
+            </li>
+            <li>
+              <h3 class="font-semibold text-black">
+                <a
+                  href="https://github.com/johnOfGod33/admin-blog-panel"
+                  class="text-blue-500"
+                  >Admin Blog Panel</a
+                >
+              </h3>
+              <p class="text-sm text-gray-500">
+                Interface pour gérer des articles de blog, construite avec
+                React.js et SASS.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Centres d’intérêt -->
+        <div class="mb-8">
+          <h2
+            class="text-xl font-bold text-blue-600 border-b-2 border-gray-200 pb-2 mb-4"
+          >
+            Centres d’Intérêt
+          </h2>
+          <p>Sport, lecture, voyage</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

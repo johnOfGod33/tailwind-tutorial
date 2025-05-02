@@ -4,6 +4,62 @@
 @tailwind components;
 @tailwind utilities;
 
+@media print {
+  body {
+    width: 210mm;
+    height: 297mm;
+    margin: 0;
+    font-size: 14px; /* Taille de police augmentée pour l'impression */
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p,
+  li {
+    font-size: 14px;
+  }
+
+  .text-right {
+    text-align: left;
+  }
+
+  .text-center {
+    text-align: left;
+  }
+
+  .font-semibold {
+    font-weight: 600;
+  }
+}
+
+/* Taille de police générale plus grande pour la version en ligne */
+body {
+  font-size: 16px; /* Taille de police augmentée */
+}
+
+/* Flexbox adjustment for width */
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+.bloc1 {
+  width: 70%;
+}
+
+.bloc2 {
+  width: 30%;
+}
 .card {
   @apply bg-white rounded shadow-md overflow-hidden relative hover:shadow-lg;
 }
